@@ -1,0 +1,9 @@
+setxkbmap -model pc104 -layout us_intl &
+nitrogen --restore &
+conky -c ~/.config/conky/conkyrc &
+numlockx on &
+xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+tint2 &
+plank &
+wicd-client --tray &
+thunar --daemon &
