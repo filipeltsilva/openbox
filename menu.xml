@@ -112,9 +112,9 @@
 			</item>
 		</menu>
 		<menu id="root-menu-112517" label="Utilitários">
-			<item label="Vim">
+			<item label="GVim">
 				<action name="Execute">
-					<execute>xterm vim</execute>
+					<execute>gvim -f  -geometry=1600x900</execute>
 				</action>
 			</item>
 			<item label="GRsync">
