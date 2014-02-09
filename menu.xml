@@ -112,6 +112,16 @@
 			</item>
 		</menu>
 		<menu id="root-menu-112517" label="Utilitários">
+			<item label="Emacs">
+				<action name="Execute">
+					<execute>emacs</execute>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<execute>gksu gparted</execute>
+				</action>
+			</item>
 			<item label="GVim">
 				<action name="Execute">
 					<execute>gvim -f  -geometry=1600x900</execute>
