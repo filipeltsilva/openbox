@@ -100,14 +100,14 @@
 					<execute>firefox</execute>
 				</action>
 			</item>
-			<item label="Teamviewer">
-				<action name="Execute">
-					<execute>teamviewer</execute>
-				</action>
-			</item>
 			<item label="Transmission GTK">
 				<action name="Execute">
 					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+			<item label="Zenmap">
+				<action name="Execute">
+					<execute>command</execute>
 				</action>
 			</item>
 		</menu>
