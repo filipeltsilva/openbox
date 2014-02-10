@@ -17,9 +17,9 @@
 				<execute>virtualbox</execute>
 			</action>
 		</item>
-		<item label="Sublime Text">
+		<item label="GVim">
 			<action name="Execute">
-				<execute>subl</execute>
+				<execute>gvim</execute>
 			</action>
 		</item>
 		<item label="Chromium">
@@ -147,22 +147,22 @@
 		<menu id="menu-configuracoes" label="Configurações">
 			<item label="Editar .bashrc">
 				<action name="Execute">
-					<execute>subl .bashrc</execute>
+					<execute>gvim .bashrc</execute>
 				</action>
 			</item>
 			<item label="Editar mpd.conf">
 				<action name="Execute">
-					<execute>subl ~/.config/mpd/mpd.conf</execute>
+					<execute>gvim ~/.config/mpd/mpd.conf</execute>
 				</action>
 			</item>
 			<item label="Editar ncmpcpp">
 				<action name="Execute">
-					<execute>subl ~/.ncmpcpp/config</execute>
+					<execute>gvim ~/.ncmpcpp/config</execute>
 				</action>
 			</item>
 			<item label="Editar Xresources (Terminal)">
 				<action name="Execute">
-					<execute>subl ~/.config/Xresources/Xresources</execute>
+					<execute>gvim ~/.config/Xresources/Xresources</execute>
 				</action>
 			</item>
 		</menu>
@@ -232,29 +232,29 @@
 			<menu id="menu-arquivos-configuracao-openbox" label="Arquivos de Configuração">
 				<item label="Autostart">
 					<action name="Execute">
-						<execute>subl ~/.config/openbox/autostart</execute>
+						<execute>gvim ~/.config/openbox/autostart</execute>
 					</action>
 				</item>
 				<item label="Environment">
 					<action name="Execute">
-						<execute>subl ~/.config/openbox/environment</execute>
+						<execute>gvim ~/.config/openbox/environment</execute>
 					</action>
 				</item>
 				<item label="Menu.xml">
 					<action name="Execute">
-						<execute>subl ~/.config/openbox/menu.xml</execute>
+						<execute>gvim ~/.config/openbox/menu.xml</execute>
 					</action>
 				</item>
 				<item label="RC.xml">
 					<action name="Execute">
-						<execute>subl ~/.config/openbox/rc.xml</execute>
+						<execute>gvim ~/.config/openbox/rc.xml</execute>
 					</action>
 				</item>
 			</menu>
 			<menu id="menu-conky-openbox" label="Conky">
 				<item label="Editar conkyrc">
 					<action name="Execute">
-						<execute>subl ~/.config/conky/conkyrc</execute>
+						<execute>gvim ~/.config/conky/conkyrc</execute>
 					</action>
 				</item>
 				<item label="Recarregar Conky">
