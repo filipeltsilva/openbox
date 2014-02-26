@@ -1,10 +1,12 @@
-xrdb ~/.Xresources
-setxkbmap -model pc104 -layout us_intl &
-nitrogen --restore &
-conky -c ~/.config/conky/conkyrc &
-numlockx on &
-xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-tint2 &
-plank &
-wicd-client --tray &
-thunar --daemon &
+(xrdb ~/.Xresources) &
+(setxkbmap -model pc104 -layout us_intl) &
+(nitrogen --restore) &
+(sleep 3 && conky -c ~/.conky/conkyrc_datetime) &
+(numlockx on) &
+(compton -bcC) &
+(tint2) &
+(sleep 3 && plank) &
+(thunar --daemon) &
+(nm-applet) &
+(volumeicon) &
+(xscreensaver -no-splash) &

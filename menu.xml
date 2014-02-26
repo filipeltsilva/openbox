@@ -71,16 +71,21 @@
 					<execute>inkscape</execute>
 				</action>
 			</item>
+			<item label="Capturar tela agora">
+				<action name="Execute">
+					<execute>scrot '%Y-%m-%d-%H:%M:%S_$wx$h_screenshot.png' -e 'mv $f ~/Imagens/; ristretto ~/Imagens/$f'</execute>
+				</action>
+			</item>
 		</menu>
 		<menu id="root-menu-71537" label="Multimídia">
 			<item label="Alsamixer">
 				<action name="Execute">
-					<execute>xterm alsamixer</execute>
+					<execute>urxvt -e alsamixer</execute>
 				</action>
 			</item>
 			<item label="ncmpcpp">
 				<action name="Execute">
-					<execute>xterm ncmpcpp</execute>
+					<execute>urxvt -e ncmpcpp</execute>
 				</action>
 			</item>
 		</menu>
@@ -112,11 +117,6 @@
 			</item>
 		</menu>
 		<menu id="root-menu-112517" label="Utilitários">
-			<item label="Emacs">
-				<action name="Execute">
-					<execute>emacs</execute>
-				</action>
-			</item>
 			<item label="GParted">
 				<action name="Execute">
 					<execute>gksu gparted</execute>
@@ -132,11 +132,6 @@
 					<execute>grsync</execute>
 				</action>
 			</item>
-			<item label="Scrot">
-				<action name="Execute">
-					<execute>scrot '%Y-%m-%d-%H:%M:%S_$wx$h_screenshot.png' -e 'mv $f ~/Imagens/; ristretto ~/Imagens/$f'</execute>
-				</action>
-			</item>
 			<item label="Virtualbox">
 				<action name="Execute">
 					<execute>virtualbox</execute>
@@ -147,7 +142,7 @@
 		<menu id="menu-configuracoes" label="Configurações">
 			<item label="Editar .bashrc">
 				<action name="Execute">
-					<execute>gvim .bashrc</execute>
+					<execute>gvim ~/.bashrc</execute>
 				</action>
 			</item>
 			<item label="Editar mpd.conf">
@@ -162,7 +157,7 @@
 			</item>
 			<item label="Editar Xresources (Terminal)">
 				<action name="Execute">
-					<execute>gvim ~/.config/Xresources/Xresources</execute>
+					<execute>gvim ~/.Xresources</execute>
 				</action>
 			</item>
 		</menu>
@@ -251,18 +246,6 @@
 					</action>
 				</item>
 			</menu>
-			<menu id="menu-conky-openbox" label="Conky">
-				<item label="Editar conkyrc">
-					<action name="Execute">
-						<execute>gvim ~/.config/conky/conkyrc</execute>
-					</action>
-				</item>
-				<item label="Recarregar Conky">
-					<action name="Execute">
-						<execute>~/Scripts/Linux/conky-reload</execute>
-					</action>
-				</item>
-			</menu>
 			<item label="LXAppearance">
 				<action name="Execute">
 					<execute>lxappearance</execute>
@@ -291,7 +274,7 @@
 			<menu id="menu-plank-openbox" label="Plank">
 				<item label="Recarregar Plank">
 					<action name="Execute">
-						<execute>~/Scripts/Linux/plank-reload</execute>
+						<execute>~/Scripts/plank_reload</execute>
 					</action>
 				</item>
 			</menu>
@@ -303,10 +286,15 @@
 				</item>
 				<item label="Recarregar Painel">
 					<action name="Execute">
-						<execute>~/Scripts/Linux/tint2-reload</execute>
+						<execute>~/Scripts/tint2_reload</execute>
 					</action>
 				</item>
 			</menu>
+			<item label="XScreenSaver">
+				<action name="Execute">
+					<execute>xscreensaver-demo</execute>
+				</action>
+			</item>
 			<separator/>
 			<item label="Recarregar Openbox">
 				<action name="Reconfigure"/>
