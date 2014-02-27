@@ -5,7 +5,7 @@
 (numlockx on) &
 (compton -bcC) &
 (tint2) &
-(sleep 3 && plank) &
+(sleep 5 && plank) &
 (thunar --daemon) &
 (nm-applet) &
 (volumeicon) &
