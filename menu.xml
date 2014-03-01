@@ -85,6 +85,11 @@
 					<execute>firefox</execute>
 				</action>
 			</item>
+			<item label="TeamViewer">
+				<action name="Execute">
+					<execute>teamviewer</execute>
+				</action>
+			</item>
 			<item label="Transmission GTK">
 				<action name="Execute">
 					<execute>transmission-gtk</execute>
