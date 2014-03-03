@@ -53,6 +53,11 @@
 			</item>
 		</menu>
 		<menu id="root-menu-71537" label="Multimídia">
+			<item label="Avidemux">
+				<action name="Execute">
+					<execute>avidemux2_gtk</execute>
+				</action>
+			</item>
 			<item label="Alsamixer">
 				<action name="Execute">
 					<execute>urxvt -e alsamixer</execute>
@@ -66,6 +71,11 @@
 			<item label="ncmpcpp">
 				<action name="Execute">
 					<execute>urxvt -e ncmpcpp</execute>
+				</action>
+			</item>
+			<item label="VLC">
+				<action name="Execute">
+					<execute>vlc</execute>
 				</action>
 			</item>
 		</menu>
