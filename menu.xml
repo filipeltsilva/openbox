@@ -68,9 +68,19 @@
 					<execute>deadbeef</execute>
 				</action>
 			</item>
+			<item label="HandBrake">
+				<action name="Execute">
+					<execute>ghb</execute>
+				</action>
+			</item>
 			<item label="ncmpcpp">
 				<action name="Execute">
 					<execute>urxvt -e ncmpcpp</execute>
+				</action>
+			</item>
+			<item label="OGMRip">
+				<action name="Execute">
+					<execute>ogmrip</execute>
 				</action>
 			</item>
 			<item label="VLC">
