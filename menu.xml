@@ -22,9 +22,9 @@
 				<execute>gvim</execute>
 			</action>
 		</item>
-		<item label="Chromium">
+		<item label="Google Chrome">
 			<action name="Execute">
-				<execute>chromium</execute>
+				<execute>google-chrome-stable</execute>
 			</action>
 		</item>
 		<separator/>
@@ -36,6 +36,13 @@
 			</item>
 		</menu>
 		<menu id="root-menu-292519" label="Gráficos">
+			<menu id="root-menu-292519-205321" label="Captura de Tela">
+				<item label="Capturar tela agora">
+					<action name="Execute">
+						<execute>scrot '%Y-%m-%d-%H:%M:%S_$wx$h_screenshot.png' -e 'mv $f ~/Imagens/; ristretto ~/Imagens/$f'</execute>
+					</action>
+				</item>
+			</menu>
 			<item label="Gimp">
 				<action name="Execute">
 					<execute>gimp</execute>
@@ -44,11 +51,6 @@
 			<item label="Inkscape">
 				<action name="Execute">
 					<execute>inkscape</execute>
-				</action>
-			</item>
-			<item label="Capturar tela agora">
-				<action name="Execute">
-					<execute>scrot '%Y-%m-%d-%H:%M:%S_$wx$h_screenshot.png' -e 'mv $f ~/Imagens/; ristretto ~/Imagens/$f'</execute>
 				</action>
 			</item>
 		</menu>
@@ -90,14 +92,14 @@
 			</item>
 		</menu>
 		<menu id="root-menu-46270" label="Rede e Internet">
-			<item label="Chromium">
-				<action name="Execute">
-					<execute>chromium</execute>
-				</action>
-			</item>
 			<item label="Filezilla">
 				<action name="Execute">
 					<execute>filezilla</execute>
+				</action>
+			</item>
+			<item label="Google Chrome">
+				<action name="Execute">
+					<execute>google-chrome-stable</execute>
 				</action>
 			</item>
 			<item label="Mozilla Firefox">
@@ -113,11 +115,6 @@
 			<item label="Transmission GTK">
 				<action name="Execute">
 					<execute>transmission-gtk</execute>
-				</action>
-			</item>
-			<item label="Zenmap">
-				<action name="Execute">
-					<execute>command</execute>
 				</action>
 			</item>
 		</menu>
@@ -144,23 +141,28 @@
 			</item>
 		</menu>
 		<separator/>
-		<menu id="menu-configuracoes" label="Configurações">
-			<item label="Editar .bashrc">
+		<menu id="menu-configuracoes" label="Arquivos de configuração">
+			<item label="bashrc">
 				<action name="Execute">
 					<execute>gvim ~/.bashrc</execute>
 				</action>
 			</item>
-			<item label="Editar mpd.conf">
+			<item label="mpd.conf">
 				<action name="Execute">
 					<execute>gvim ~/.config/mpd/mpd.conf</execute>
 				</action>
 			</item>
-			<item label="Editar ncmpcpp">
+			<item label="ncmpcpp">
 				<action name="Execute">
 					<execute>gvim ~/.ncmpcpp/config</execute>
 				</action>
 			</item>
-			<item label="Editar Xresources (Terminal)">
+			<item label="Plank">
+				<action name="Execute">
+					<execute>gvim ~/.config/plank/dock1/settings</execute>
+				</action>
+			</item>
+			<item label="Xresources">
 				<action name="Execute">
 					<execute>gvim ~/.Xresources</execute>
 				</action>
