@@ -187,6 +187,15 @@
         <height>450</height>
       </action>
     </keybind>
+    <keybind key="W-KP_3">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>801</x>
+        <y>451</y>
+        <width>800</width>
+        <height>450</height>
+      </action>
+    </keybind>
     <keybind key="W-KP_7">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -204,11 +213,20 @@
       </action>
       <action name="MaximizeHorz"/>
     </keybind>
+    <keybind key="W-KP_2">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <y>451</y>
+      </action>
+      <action name="MaximizeHorz"/>
+    </keybind>
     <keybind key="W-KP_9">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>533</width>
-        <height>300</height>
+        <x>801</x>
+        <y>0</y>
+        <width>800</width>
+        <height>450</height>
       </action>
     </keybind>
     <keybind key="W-KP_4">
