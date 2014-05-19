@@ -55,34 +55,14 @@
 			</item>
 		</menu>
 		<menu id="root-menu-71537" label="Multimídia">
-			<item label="Avidemux">
-				<action name="Execute">
-					<execute>avidemux2_gtk</execute>
-				</action>
-			</item>
 			<item label="Alsamixer">
 				<action name="Execute">
 					<execute>urxvt -e alsamixer</execute>
 				</action>
 			</item>
-			<item label="DeaDBeeF">
-				<action name="Execute">
-					<execute>deadbeef</execute>
-				</action>
-			</item>
-			<item label="HandBrake">
-				<action name="Execute">
-					<execute>ghb</execute>
-				</action>
-			</item>
 			<item label="ncmpcpp">
 				<action name="Execute">
 					<execute>urxvt -e ncmpcpp</execute>
-				</action>
-			</item>
-			<item label="OGMRip">
-				<action name="Execute">
-					<execute>ogmrip</execute>
 				</action>
 			</item>
 			<item label="VLC">
@@ -231,6 +211,28 @@
 			</item>
 		</menu>
 		<menu id="menu-openbox" label="Openbox">
+			<menu id="menu-openbox-70559" label="Aparência">
+				<item label="LXAppearance">
+					<action name="Execute">
+						<execute>lxappearance</execute>
+					</action>
+				</item>
+				<item label="Nitrogen">
+					<action name="Execute">
+						<execute>nitrogen</execute>
+					</action>
+				</item>
+				<item label="Tintwizard">
+					<action name="Execute">
+						<execute>tintwizard</execute>
+					</action>
+				</item>
+				<item label="XScreenSaver">
+					<action name="Execute">
+						<execute>xscreensaver-demo</execute>
+					</action>
+				</item>
+			</menu>
 			<menu id="menu-arquivos-configuracao-openbox" label="Arquivos de Configuração">
 				<item label="Autostart">
 					<action name="Execute">
@@ -253,31 +255,23 @@
 					</action>
 				</item>
 			</menu>
-			<item label="LXAppearance">
-				<action name="Execute">
-					<execute>lxappearance</execute>
-				</action>
-			</item>
-			<item label="Nitrogen">
-				<action name="Execute">
-					<execute>nitrogen</execute>
-				</action>
-			</item>
-			<item label="Obconf">
-				<action name="Execute">
-					<execute>obconf</execute>
-				</action>
-			</item>
-			<item label="Obkey">
-				<action name="Execute">
-					<execute>obkey</execute>
-				</action>
-			</item>
-			<item label="Obmenu">
-				<action name="Execute">
-					<execute>obmenu</execute>
-				</action>
-			</item>
+			<menu id="menu-openbox-63537" label="Configurações do Ambiente">
+				<item label="Obconf">
+					<action name="Execute">
+						<execute>obconf</execute>
+					</action>
+				</item>
+				<item label="Obmenu">
+					<action name="Execute">
+						<execute>obmenu</execute>
+					</action>
+				</item>
+				<item label="Obkey">
+					<action name="Execute">
+						<execute>obkey</execute>
+					</action>
+				</item>
+			</menu>
 			<menu id="menu-plank-openbox" label="Plank">
 				<item label="Recarregar Plank">
 					<action name="Execute">
@@ -285,23 +279,6 @@
 					</action>
 				</item>
 			</menu>
-			<menu id="menu-tint2-openbox" label="Tint2">
-				<item label="Tintwizard">
-					<action name="Execute">
-						<execute>tintwizard</execute>
-					</action>
-				</item>
-				<item label="Recarregar Painel">
-					<action name="Execute">
-						<execute>~/Scripts/tint2_reload</execute>
-					</action>
-				</item>
-			</menu>
-			<item label="XScreenSaver">
-				<action name="Execute">
-					<execute>xscreensaver-demo</execute>
-				</action>
-			</item>
 			<separator/>
 			<item label="Recarregar Openbox">
 				<action name="Reconfigure"/>
