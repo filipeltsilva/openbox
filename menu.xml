@@ -22,6 +22,11 @@
 				<execute>gvim</execute>
 			</action>
 		</item>
+		<item label="Sublime Text 2">
+			<action name="Execute">
+				<execute>subl</execute>
+			</action>
+		</item>
 		<item label="Google Chrome">
 			<action name="Execute">
 				<execute>google-chrome-stable</execute>
@@ -99,19 +104,14 @@
 			</item>
 		</menu>
 		<menu id="root-menu-112517" label="Utilitários">
-			<item label="GParted">
-				<action name="Execute">
-					<execute>gksu gparted</execute>
-				</action>
-			</item>
 			<item label="GVim">
 				<action name="Execute">
 					<execute>gvim -f  -geometry=1600x900</execute>
 				</action>
 			</item>
-			<item label="GRsync">
+			<item label="Sublime Text 2">
 				<action name="Execute">
-					<execute>grsync</execute>
+					<execute>subl</execute>
 				</action>
 			</item>
 			<item label="Virtualbox">
