@@ -22,9 +22,9 @@
 				<execute>gvim</execute>
 			</action>
 		</item>
-		<item label="Sublime Text 2">
+		<item label="Sublime Text 3">
 			<action name="Execute">
-				<execute>subl</execute>
+				<execute>subl3</execute>
 			</action>
 		</item>
 		<item label="Google Chrome">
@@ -109,9 +109,9 @@
 					<execute>gvim -f  -geometry=1600x900</execute>
 				</action>
 			</item>
-			<item label="Sublime Text 2">
+			<item label="Sublime Text 3">
 				<action name="Execute">
-					<execute>subl</execute>
+					<execute>subl3</execute>
 				</action>
 			</item>
 			<item label="Virtualbox">
